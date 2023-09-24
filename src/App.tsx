@@ -49,7 +49,6 @@ const GlobalStyles = createGlobalStyle`
 function App() {
   const [isLoading, setLoading] = useState(true);
   const init = async () => {
-    // wait for firebase
     setLoading(false);
   };
   useEffect(() => {
